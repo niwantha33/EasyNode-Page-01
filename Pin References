@@ -1,0 +1,44 @@
+
+
+#Operating voltage -----5V
+#Current : 75mA
+#Power feed options : 3.3V and 5V 
+
+#Input and Output pins 
+
+##pin(13) -------- I/O (With Lowpass filter) 
+##pin(12) -------- I/O (With Lowpass filter) 
+##pin(14) -------- I/O (With Lowpass filter) 
+##pin(16) -------- I/O (With Lowpass filter) 
+
+#Debug Pin 
+
+##DBG------------------ pin :2 
+Can define as "Serial1" (Serial+"1") for program debug purpose 
+and also you can use inbuilt SMD LED 0603 with 270 Ohm SMD 0805 package resistor in order to 
+use as a debug solution
+
+#Analog input with Analog Ground 
+A0---------------------- Directly you can connect any analog sensors which has maximum voltage "5V"
+do not exceed more than 5V 
+* if not you can use this pin for internal voltage measures 
+
+#DWN Jumper pin 
+
+In order to download firmware to the EasyNode you have to bridge DWN jumper pins together
+
+#Wakeup Mode
+
+You can use this jumper to set restart from deep-sleep 
+this method will help to save battery and minimise unnecessary connections to router
+
+#Additional 5V and 3.3V pins 
+
+Directly you can use these pins to power external sensors 
+
+# You can use 5V or 3.3V to power the EasyNode
+
+
+
+
+
